@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
-@RequestMapping("/cliente")
 @RestController
+@RequestMapping("/cliente")
 public class ClienteController {
 
     @Autowired

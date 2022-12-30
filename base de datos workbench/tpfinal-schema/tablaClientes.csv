@@ -1,0 +1,6 @@
+"cliente_id";"apellido";"dni";"edad";"nombre";"estado_fisico_id";"numero_sucursal_id"
+1;"Angeloni";42345345;22;"Fabricio";1;1
+2;"Serra";40988788;30;"Gabriel";2;1
+3;"Rodriguez";42345345;25;"Ivan";3;2
+4;"Gomez";12123123;38;"Horacio";4;3
+5;"Santucho";16890098;25;"Agustin";5;2

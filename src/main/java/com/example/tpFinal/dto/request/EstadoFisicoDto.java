@@ -1,11 +1,11 @@
 package com.example.tpFinal.dto.request;
 
-import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
-@Getter @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 public class EstadoFisicoDto {
@@ -19,9 +19,13 @@ public class EstadoFisicoDto {
 
     private double imc;
 
-
     public EstadoFisicoDto(Long id, double altura, double peso) {
         this.id = id;
+        this.altura = altura;
+        this.peso = peso;
+    }
+
+    public EstadoFisicoDto(double altura, double peso) {
         this.altura = altura;
         this.peso = peso;
     }
